@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div class="wrapper">
+<head>
+    <link rel="stylesheet" type="text/css" href="design.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/liwras/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+ 
+
+
+
+  <page>
+
+    <body>
+        
+        <h2 class="titles"><b>Info Weather</b></h2>
+    
+        <div class="part1">
+            <div>
+                <button  class= "second_page"  onclick = "window.location.href='../Weather_site/secondPage.html';"><i class="fa fa-arrow-right"></i></button>
+            </div>
+            <div class="part1">
+                <select class="country" name="country" id="countrychoose" >
+                    <option value="0"><b><h>Select a country</h2></b></option>
+                    <option value="2459115">New York</option>
+                    <option value="2442047">Los Angeles</option>
+                    <option value="610264">Marseille</option>
+                    <option value="753692">Barcelona</option>
+                    <option value="721943">Rome</option>
+                    </select>
+            </div>
+            <div class="part2">
+                <div class="block1">
+                        <div  class = "blockTime"><b>Time </b></div>
+                        <div id ="timeprop" class="time"> 3:30 p.m</div> 
+                </div>
+                <div  class="block1">
+                    <div  class = "blockTime" ><b>Sunrise </b></div>
+                    <div  style="display:inline-block;margin-right: 2%" class="sunrise"> 3:30 p.m</div> 
+                </div>   
+                <div   class="block1">
+                    <div  class = "blockTime" ><b>Sunset </b></div>
+                    <div style="display:inline-block;margin-right: 2%" class="sunset"> 3:30 p.m</div> 
+                </div> 
+            </div>
+           
+        </div>
+  
+       <!-- <div> -->
+            <div  class="designcity">
+                <div  id="ville">
+                    <h1 class="city"><b>New York</b></h1>
+                </div>
+                <div  id="ville">, </div>
+                 <div  id="villeRepet">
+                    <h4 class="city"><b> New York</b></h4>
+                 </div>
+            <!-- </div> -->
+         
+        </div>      
+        <section class="weather">
+            <div id="table1">
+            </div>
+
+        </section>
+    
+
+    </body>
+</page>
+<footer>
+    <h2 class= "footer"><b>© Weather, Inc. 2021.We love weather</b></h2>
+</footer>
+
+<script src="main.js"></script>
+<script> let page1 = true;</script>
+
+</html>

@@ -1,0 +1,90 @@
+
+@media only screen and (min-width: 1000px){
+
+.classd{
+    width: 30%;
+}
+
+#table1{
+    width: 30%;
+}
+
+.weatherTab{
+    width: 100%;
+}
+
+.tablesty{
+    display: inline-block;
+}
+
+.divs2{
+    display: inline-block;
+    margin-left: 30%;
+    font-size: 20px;
+    width: 30%;
+    margin-bottom: 1000px;
+}
+
+#weatherAndLink{
+    margin-top: -5%;
+    height: 500px;
+}
+
+.containerCity{
+    margin-left: 50px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    font-size: 20px;
+    margin-left:75%;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 620px){
+
+    .classd{
+        margin-left: 1%;
+        width: 50%;
+    }
+    
+    #table1{
+        width: 50%;
+    }
+    
+    .weatherTab{
+        width: 50%;
+    }
+    
+    .tablesty{
+        display: inline-block;
+    }
+    
+    .divs2{
+        display: inline-block;
+        margin-left: 10%;
+        font-size: 12px;
+        width: 38%;
+    }
+
+    .containerCity{
+        margin-top: 1%;
+        margin-left: 10px;
+    }
+   
+    #weatherAndLink{
+        height: 400px;
+    }
+
+footer {
+    clear: both;
+    position: relative;
+    font-size: 12px;
+    margin-left:28%;
+    }
+   
+}

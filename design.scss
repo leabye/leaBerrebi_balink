@@ -1,0 +1,262 @@
+
+/*Phone and Tablet*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: #3269a8;
+}
+.wrapper{
+    width: 100%;
+} 
+.tablesty{
+    font-size: 15px;
+}
+.part2{
+    margin-top: 2%;
+}
+#timeprop{
+    display:inline-block;
+    margin-right: 2%;
+}
+.footer{
+    text-align: right;
+    font-size: 12px;
+    margin-top: 8%;
+    margin-right: 8%;
+    margin-bottom: 4%;
+    
+}
+.part1{
+    display:block;
+    margin-top: 10%;
+}
+
+.titles{
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+    margin-top: 25px;
+    /* margin-left: 150px; */
+}
+
+#propert{
+    margin-left: 20%;
+}
+#prec{
+    display: inline-block;
+}
+
+#countrychoose{
+    margin-right:6%;
+    margin-bottom: 10%;
+    display: flex;
+    flex: 1;
+    float: right!important;
+    height: 100%;
+   
+}
+.block1{
+    margin-left : 50%;
+    
+}
+
+.blockTime{
+    display:inline-block;
+    margin-right: 20px;
+}
+.second_page{
+    border: none;
+    margin-left: 20px;
+    margin-top: 1%;
+}
+#ville{
+    display:inline-block;
+    margin-top: 5%;
+}
+#villeRepet{
+    display:inline-block;
+}
+
+.table1{
+    border-collapse: separate;
+    border-spacing:1.5px 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 250px;
+    width: 400px;
+    font-size: 10px;
+}
+.weather{
+    font-size: 15px;
+}
+
+
+#imgs{
+    width: 65%;
+    height: 40%;
+}
+
+
+.weatherTab{
+    display:inline-block;
+    width: 30%;
+    margin-top: 3%;
+    height: 60%;
+    margin-left: 3%;
+}
+#maxval{
+    display:inline-block;
+}
+.designcity{
+    margin-top: 1%;
+    margin-left: 10px;
+}
+
+.prec{
+    display: inline-block;
+}
+.de1{
+    font-size: 10px;
+    width: 6%;
+    margin-bottom: -5px;
+}
+.de2{
+    font-size: 10px;
+    width: 10%;
+    margin-bottom: -5px;
+}
+
+/*Computer screen*/   
+@media only screen and (min-width: 1000px){
+    .wrapper{
+        width: 100%;
+    }
+    
+    .part2{
+        margin-top: -50px;
+        margin-right: 5%    ;
+    }
+    #imgs{
+        width: 100%;
+        height: 50%;
+        margin-top: 10%
+    };
+    #tablesty{
+        font-size: 15px;
+    }
+    #countrychoose{
+        margin-right: 6%;
+        margin-bottom: 10%;
+        display: flex;
+        flex: 1;
+        float: right!important;
+        height: 100%;
+        width: 12%;
+        height: 50%;
+       
+        font-size: 20px;
+    }
+    #propert{
+        margin-left: 20%;
+    }
+    #timeprop{
+        display:inline-block;
+        margin-left: 1%;
+    }
+    .block1{
+        margin-left: 90%;
+        margin-top: 1%;
+    }
+    .countrysit{
+        display:block;
+        margin-top: -20px;
+        font-size: 20px;
+        margin-bottom: -50px;
+    }
+    .part1{
+        display:block;
+        margin-top: -20px;
+        font-size: 20px;
+        margin-bottom: -50px;
+    }
+    .blockTime{
+        display:inline-block;
+        margin-right: 20px;
+        width: 30%;
+    }
+    .properties{
+        margin-top: 100%;
+        width: 20%;
+        display: block;
+    }
+    .weatherTab{
+        display:inline-block;
+        width: 10%;
+        margin-top: 5%;
+        margin-left: 3%;
+        font-size: 20px;
+    }
+
+    .titles{
+        text-align: center;
+        width: 90%;
+        font-size: 70px;
+        margin-top: 5%;
+       
+    }
+    .designcity{
+        margin-top: -17%;
+        margin-left: 50px;
+    }
+    .table1{
+        border-collapse: separate;
+        border-spacing:2px 0;
+        margin-top: 20px;
+        margin-left: 50px;
+        height: 500px;
+        width: 650px;
+        font-size: 20px;
+    }
+    .second_page{
+       margin-left: 50px;
+       margin-top: 1%;
+       font-size: 50px;
+    }
+    .footer{
+        font-size: 20px;
+        margin-top: 8%;
+        margin-left: -5%;
+        margin-bottom: 0.5%;
+    }
+  
+    #ville{
+        font-size: 25px;
+    }
+    #ville2page{
+        font-size: 25px;
+        margin-top: 150px;
+    }    
+    .table2{
+        margin-top:100px;
+    }
+   
+    
+    #tablesty{
+        font-size: 20px;
+    }
+    } 
+    .divs2{
+        display: inline-block;
+        margin-left: 70%;
+        font-size: 20px;
+        width: 20%;
+        margin-bottom: 1000px;
+    
+    }
+
+
+
